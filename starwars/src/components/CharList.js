@@ -1,6 +1,8 @@
 import React from 'react'
 import Char from './Char';
 
+import './StarWars.css'
+
 const CharList = (props) => {
   return (
     <div className='char-list'>
