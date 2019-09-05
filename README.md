@@ -26,11 +26,21 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+I think  that because manipulating the DOM is so extensive and takes so much computational power, that if you render the whole DOM every time there are a few makes the render slow. So REACT  creates a virtual DOM which allows the DOM to only update the changes made and not the whole of all the elements that are making up the DOM at that moment. By breaking apart the DOM into components that can be reused REACT is able to lower the computational power needed to render High functioning APPs in real time.
+
 - [ ] What does it mean to _think_ in react?
+
+To think in REACT to me means breaking apart the functional components that make up a dynamic app so they can be isolated and reused. So the App as a whole needs to be recognized, then the individual components that render state need to be recognized and the common component that connects them as well. As well as recognizing the difference between State and Props and what there purpose is.
+
+
 
 - [ ] Describe state.
 
+  State is the heart of a component and is local to that component and is not mutable. State can only be used or modified inside its original component.
+
 - [ ] Describe props.
+
+  Props is the blood of a component and can be passed around and reused. Giving components the ability to give or receive data.
 
 ## Project Set Up
 
